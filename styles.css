@@ -1,0 +1,171 @@
+/* Henry Urbina */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+/*End of Reset   */ 
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Molle&family=Oswald:wght@200..700&family=REM:wght@100;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Molle&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=REM:wght@100;500;600;700&display=swap');
+
+nav{
+    background-color: #222222;
+    color: white;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #55BCD5;
+}
+header a{
+    order: -1;
+    flex-grow: 1;
+    width: 50%;
+}
+nav {
+    order: 0;
+    flex-grow: 1;
+    width: 50%;
+}
+h1{
+    order: 1;
+    flex-grow: 1;
+    width: 100%;
+    
+}
+h1, h2, h3 {
+    font-family: "Molle", sans-serif;
+}
+h4, p, q, small, nav, button, form{
+    font-family: "Montserrat", sans-serif;
+}
+header p {
+    order: 2;
+}
+input[type=submit]{
+    background-color: #9B26B0;
+}
+#contact input{
+    text-align: left;
+    width: 100%;
+}
+#img-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+#plan{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #F6D64A;
+}
+#plan section{
+    background: #55BCD5;
+    border: white solid;
+}
+#testimonials{
+    display: grid;
+    grid-row: 1fr;
+}
+#about{
+    background-color: #499BD2;
+}
+#about div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
