@@ -126,7 +126,7 @@ h1{
     order: 1;
     flex-grow: 1;
     width: 100%;
-    
+    font-size: 40px;
 }
 h1, h2, h3 {
     font-family: "Molle", sans-serif;
@@ -139,6 +139,9 @@ header p {
 }
 input[type=submit]{
     background-color: #9B26B0;
+}
+h4{
+    font-weight: bold;
 }
 #contact input{
     text-align: left;
@@ -154,13 +157,22 @@ input[type=submit]{
     grid-template-columns: 1fr;
     background-color: #F6D64A;
 }
+h3{
+    text-align: center;
+}
 #plan section{
     background: #55BCD5;
     border: white solid;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
 }
 #testimonials{
     display: grid;
     grid-row: 1fr;
+}
+#testimonials section{
+    text-align: center;
 }
 #about{
     background-color: #499BD2;
