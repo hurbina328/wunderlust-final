@@ -78,7 +78,7 @@ table {
 #skip:focus {
   position: static;
 }
-
+/* General Styling */
 body {
   overflow-x: hidden;
   list-style: none;
